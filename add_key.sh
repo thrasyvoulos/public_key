@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # My public key
-KEY='ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAwQIsKhcHSGbHCZneCsIlCehlQ/wqB4AoHV91l5uHydorifyW8DF27slHJchwqVZdESr1qmmB4uMmGTJX6WBwxnt3fGjtsJJgpJnyh2bVlOT+iU8o9GFt83iqyAsaMiS/Opi8L0rxbglKtiafAQ4Z/k+L+AerRuJYieXIXxifT+qjHoWYEruZXzeSvn/gBJ7C7EebPLqJQUnwfYm+4Wbu58lbwyWgRbewjiSw/MeqzEA8Od+OEKvXQtFODD90noVehhAhYmHuPcyOsxPSyuF9v5ALCb000+ckkNJdhqwpWpTtH8Y5JfvRXo8DlmTVKPZ6a0n1RnjnarX0LKPwJF2m6Q== pmoust@Panagiotis-Moustafelloss-MacBook-Pro.local';
+KEY='ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEUqo4hdXCYzsZ4bUBFh00koxFL3Q8mmjzjMs3t/gD22VrJ77xVcjw9arhosMXmS5hqlUKpu1OjEVRpiVQsR+VvXI5RKpuAXPiUThWF5uNAWiHfXSlUYPKfdv3mCrcsEqvmaLgm+W/mqcAHI74/IlRH6CC9anwlvqzMO3WJzGfH2SBwKAdbCJ8V2dGDIq5CWZnGPX/3jFTGGSRsC4o4Y3ArRKSvYJPygFIK1pJj34oWviBCIhKhTOq2zGMOqwHwXmoMhq6NzFLFeqj4dkaHCJ0fQV/wuLyF/PQlev2UFNUINrrHKAUwK+Y+f6hcpAfPJ4yLRVKDKci5eXUtbfxfVIX raccoon';
 
 # Determine key path, warning eval = evil
 HOME=$(eval echo ~${SUDO_USER})
