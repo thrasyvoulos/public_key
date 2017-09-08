@@ -3,7 +3,7 @@
 # Determine key path, warning eval = evil
 HOME=$(eval echo ~${SUDO_USER})
 KEYCHAIN="$HOME/.ssh/authorized_keys"
-GITHUB_USER="stafot"
+GITHUB_USER="smavroud"
 CURL=`which curl`
 KEY="$CURL https://github.com/$GITHUB_USER.keys" 
 

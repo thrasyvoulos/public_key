@@ -7,5 +7,5 @@ usage
 =====
 
 ```Bash
-curl  https://raw.githubusercontent.com/stafot/public_key/master/add_key.sh | /bin/bash
+curl  https://raw.githubusercontent.com/smavroud/public_key/master/add_key.sh | /bin/bash
 ```
